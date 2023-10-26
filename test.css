@@ -1,0 +1,48 @@
+*{
+    background-color: black;
+    
+}
+body{
+    color: aliceblue;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    line-height: 1.5;
+}
+
+.nav{
+        background-color: gray;
+        position: sticky;
+        top: 0px;
+        size: 20%;
+    }
+h1{
+    font-size: 60px;
+}
+
+.Ryan{
+    border-radius: 50%;
+}
+
+.map{
+    width: 800px;
+    height: 500px;
+}
+
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+span{
+    border: 0.3px dashed;
+    padding: 2px;
+}
+
+.label{
+    font-size: 22px;
+    background-color: gray;
+    text-align: center;
+}

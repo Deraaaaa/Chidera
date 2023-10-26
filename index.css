@@ -1,0 +1,32 @@
+/* h3{
+    color: chocolate;
+} */
+body {
+    background-color: rgb(44, 28, 3);
+    font-size: 1.2em;
+}
+.section{
+    font-size: inherit;
+    border: solid black 2px;
+    width: 70%;
+    
+}
+.section h3{
+    color: crimson;
+}
+.section>p{
+    color: green;
+}
+
+.footer{
+    background-color:gray ;
+}
+.copyright>p{
+    text-align: center;
+    color: rgb(231, 206, 189);
+}
+.year>p{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(231, 206, 189);
+}

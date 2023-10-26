@@ -1,0 +1,181 @@
+body{
+    margin: 5px;
+    padding: 0px;
+  
+}
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary: brown;
+    --sec: burlywood ;
+
+}
+
+nav{
+    background-color: burlywood;
+    display: flex;
+}
+
+.logo img{
+    width: 20%;
+    border-radius: 30%;
+}
+
+.menu ul li{
+ list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: brown;
+    font-family: system-ui;
+    font-size: 1.3em;
+    padding-left:20px;
+    line-height: 30px;
+}
+
+.menu ul li a:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    transition:300ms;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.banner{
+    background-color: burlywood;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner h1{
+    text-align: center;
+    color: brown;
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.banner p{
+    text-align: center;
+    color: brown;
+    font-size: 1.5em;
+}
+
+.btn{
+    margin-left: 20%;
+}
+
+.btn button{
+    padding: 20px;
+    background: linear-gradient(120deg, brown, burlywood);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    border: solid 1px; 
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.btn button:hover{
+    padding: 21px;
+    background: linear-gradient(120deg yello black);
+    color: brown;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.bannersection{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    align-items: end;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.bannersection figure{
+    border: solid white 2px;
+}
+
+.bannersection img{
+    width:100%;
+}
+
+.bannerpara{
+    padding:10px;
+    text-align: justify;
+}
+
+.bannersection>div{
+    width:30%;
+    border: solid red 1px;
+}
+
+.gallery{
+    display: grid;
+    /* The number of auto determines how many will be showed per column */
+    grid-template-columns: auto auto;
+    width:70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    grid-gap:20px;
+    animation-name:gallery;
+    animation-duration: 20s;
+}
+
+.gallery>div{
+    border: solid red 1px;
+}
+
+.gallery img{
+    height: 100%;
+    width: 150%;
+}
+
+.section .icon{
+    margin-left:45%;
+    margin-top:50px;
+}
+
+#one{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+@keyframes gallery {
+    0%{}
+}
+
+
+
+.learn{
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.figure img{
+    width: 100%;
+    padding-left: 30px;
+}
+
+.article{
+    width:70%;
+    color: brown;
+    font-weight: bold;
+}
+
+.learn .figure{
+    order: 2;
+}
+
+.learn .article{
+    order: 1;
+}
