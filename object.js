@@ -65,7 +65,7 @@ console.log(humans.women)
 //     }
 // ]
 let shoppingcart =  {
-    product: 'Fire biscuit',
+    product: 'Fire bicuit',
     price: 30,
     quantity: 3
 }
