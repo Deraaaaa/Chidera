@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QSERVERSPROJECT</title>
+</head>
+
+<link rel="stylesheet" href="project.css">
+
+ <div class="header">
+
+    <div class="iconify">
+        <div class="fb">
+            <svg xmlns="http://www.w3.org/2000/svg"  width="32" height="32" viewBox="0 0 32 32"><path fill="grey" d="M26.67 4H5.33A1.34 1.34 0 0 0 4 5.33v21.34A1.34 1.34 0 0 0 5.33 28h11.49v-9.28H13.7v-3.63h3.12v-2.67c0-3.1 1.89-4.79 4.67-4.79c.93 0 1.86 0 2.79.14V11h-1.91c-1.51 0-1.8.72-1.8 1.77v2.31h3.6l-.47 3.63h-3.13V28h6.1A1.34 1.34 0 0 0 28 26.67V5.33A1.34 1.34 0 0 0 26.67 4Z"/></svg>
+        </div>
+
+        <div class="ig">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path fill="grey" d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 72a24 24 0 1 1 24-24a24 24 0 0 1-24 24Zm48-132H80a60.07 60.07 0 0 0-60 60v96a60.07 60.07 0 0 0 60 60h96a60.07 60.07 0 0 0 60-60V80a60.07 60.07 0 0 0-60-60Zm36 156a36 36 0 0 1-36 36H80a36 36 0 0 1-36-36V80a36 36 0 0 1 36-36h96a36 36 0 0 1 36 36ZM196 76a16 16 0 1 1-16-16a16 16 0 0 1 16 16Z"/></svg>
+        </div>
+
+        <div class="ld">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="grey" d="M26.2 4H5.8C4.8 4 4 4.8 4 5.7v20.5c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V5.7c0-.9-.8-1.7-1.8-1.7zM11.1 24.4H7.6V13h3.5v11.4zm-1.7-13c-1.1 0-2.1-.9-2.1-2.1c0-1.2.9-2.1 2.1-2.1c1.1 0 2.1.9 2.1 2.1s-1 2.1-2.1 2.1zm15.1 12.9H21v-5.6c0-1.3 0-3.1-1.9-3.1S17 17.1 17 18.5v5.7h-3.5V13h3.3v1.5h.1c.5-.9 1.7-1.9 3.4-1.9c3.6 0 4.3 2.4 4.3 5.5v6.2z"/></svg>
+        </div>
+
+        <div class="tt">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" viewBox="0 0 15 15"><path fill="grey" d="M14.977 1.467a.5.5 0 0 0-.87-.301a2.559 2.559 0 0 1-1.226.763A3.441 3.441 0 0 0 10.526 1a3.539 3.539 0 0 0-3.537 3.541v.44C3.998 4.75 2.4 2.477 1.967 1.325a.5.5 0 0 0-.916-.048C.004 3.373-.157 5.407.604 7.139C1.27 8.656 2.61 9.864 4.51 10.665C3.647 11.276 2.194 12 .5 12a.5.5 0 0 0-.278.916C1.847 14 3.55 14 5.132 14h.048c4.861 0 8.8-3.946 8.8-8.812v-.479c.363-.37.646-.747.82-1.236c.193-.546.232-1.178.177-2.006Z"/></svg>
+        </div>
+    </div>
+
+    <div class="head">
+        <div class="view">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="13" viewBox="0 0 24 24"><path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2Z"/></svg>
+            View Cart (o)
+        </div>
+    
+        <div class="Submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48Zm143 304h-45.22a8 8 0 0 1-6.91-4l-16.14-27.68a8 8 0 0 1-.86-6l14.86-59.92a8 8 0 0 1 4.65-5.45l28.1-11.9a8 8 0 0 1 8.34 1.3l41.63 35.82a8 8 0 0 1 2.69 7.26a174.75 174.75 0 0 1-24.28 66.68A8 8 0 0 1 399 352ZM134.52 237.13l28.1 11.9a8 8 0 0 1 4.65 5.45l14.86 59.92a8 8 0 0 1-.86 6L165.13 348a8 8 0 0 1-6.91 4H113a8 8 0 0 1-6.82-3.81a174.75 174.75 0 0 1-24.28-66.68a8 8 0 0 1 2.69-7.26l41.63-35.82a8 8 0 0 1 8.3-1.3Zm256.94-87.24l-18.07 51.38A8 8 0 0 1 369 206l-29.58 12.53a8 8 0 0 1-8.26-1.24L274.9 170.1a8 8 0 0 1-2.9-6.1v-33.58a8 8 0 0 1 3.56-6.65l42.83-28.54a8 8 0 0 1 7.66-.67A176.92 176.92 0 0 1 390 142a8 8 0 0 1 1.46 7.89ZM193.6 95.23l42.84 28.54a8 8 0 0 1 3.56 6.65V164a8 8 0 0 1-2.86 6.13l-56.26 47.19a8 8 0 0 1-8.26 1.24L143 206a8 8 0 0 1-4.43-4.72L120.5 149.9a8 8 0 0 1 1.5-7.9a176.92 176.92 0 0 1 64-47.48a8 8 0 0 1 7.6.71Zm17.31 327.46L191.18 373a8 8 0 0 1 .52-7l15.17-26a8 8 0 0 1 6.91-4h84.44a8 8 0 0 1 6.91 4l15.18 26a8 8 0 0 1 .53 7l-19.59 49.67a8 8 0 0 1-5.69 4.87a176.58 176.58 0 0 1-79 0a8 8 0 0 1-5.65-4.85Z"/></svg>
+            Submit Support Tickets
+        </div>
+        
+        <div class="Manage">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 14 14"><path fill="currentColor" fill-rule="evenodd" d="M7 2a2 2 0 0 0-2 2v1h4V4a2 2 0 0 0-2-2ZM3 4v1a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 3 14h8a1.5 1.5 0 0 0 1.5-1.5v-6A1.5 1.5 0 0 0 11 5V4a4 4 0 1 0-8 0Zm4 6.75a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5Z" clip-rule="evenodd"/></svg>
+            Manage Account
+        </div>
+   </div>
+ </div>
+
+ <nav>  
+    <ul>
+
+        <img src="https://qservers.ng/wp-content/themes/qservers/img/logo.png" alt=""> 
+
+        <li>Home <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="white" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg></li>
+        <li>Hosting <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="white" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg></li>
+        <li>Domain names <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="white" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg></li>
+        <li>SSL <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="white" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg></li>
+        <li>Affiliates <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="white" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg></li>
+        <li>Support <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path fill="white" d="M3 19h18a1.002 1.002 0 0 0 .823-1.569l-9-13c-.373-.539-1.271-.539-1.645 0l-9 13A.999.999 0 0 0 3 19z"/></g></svg></li>
+    </ul>
+ </nav>
+
+<body>
+    <div class="section1">
+
+ 
+
+      <div class="sectionc">
+         <img src="https://www.qservers.net/wp-content/themes/qservers/img/slides/slide-img1_2.png" alt="">
+
+         <div class="notec">
+         <h2>Website Hosting</h2>
+
+         <p>From as low as <span class="number">N15,000</span></p>
+
+         <p>Free .COM.NG Domain, 6GB Disk Space. 30GB Bandwidth & SSL</p>
+            
+         <p>WordPress, Joomla, OpenCart & Magento Ready.</p>
+
+          
+            <button>VIEW PACKAGES</button>
+            <button>ORDER NOW</button>
+          
+        </div>
+      </div>
+
+      <!-- <div class="sectiond">
+         <img src="https://www.qservers.net/wp-content/themes/qservers/img/slides/slide-img4_5.png" alt="">
+         
+         <div class="noted">
+         <h2>Word Press</h2>
+         <h3>Managed Word Press Hosting</h3>
+
+         <p>– From as low as N2,000/m
+            Turbo Fast, Automatic Updates, Free SSL, Daily & Weekly Backups. No Setup Fee! </p>
+
+         <button>VIEW WORD PRESS PACKAGES</button>
+        </div>
+
+       </div> -->
+    </div>
+
+
+
+    <div class="SECTION2">
+        <div class="sectione">
+         <h2>Domain Search</h2>
+
+         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSn7dpjJfygPazTjpAglPso1I6wJU2COCXFtdHb3vUWLtk4gSie" alt="">
+        </div>
+
+        <div class="sectionf">
+            <h2>Our Services</h2>
+            <P>Domain Name Registration, Web Hosting, SSL Certificates & Website Development</P>
+        </div>
+
+        <div class="box">
+            <div class="box1">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/hostingplans/domains.png" alt="">
+
+                <h3>DOMAIN NAMES</h3>
+
+                <li> Domains from just </li>
+                <li> <span class="amount1"> 1,100 </span> </li>
+                <li> per year  </li>
+
+                <p>Secure your online identity today. Even if you are not ready to build a website, you can reserve your name so it’s ready when you need it.</p>
+
+                <button> >>Find out more </button>
+            </div>
+            
+            <div class="box2">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/hostingplans/hosting.png" alt="">
+
+                <h3>Web Hosting</h3>
+
+                <li>Web Hosting </li>
+                
+                <li> <span class="amount2">1500 </span> </li>
+
+                <li> per month </li>
+
+                <p>Our web hosting is great for static websites, database-driven content management systems, and custom applications.</p>
+
+                <button> >>Find out more</button>
+            </div>
+
+            <div class="box3">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/hostingplans/ssl.png" alt="">
+
+                <h3> SSL Certificates</h3>
+
+                <li> SSL from just </li>  
+                <li> <span class="amount3">6500 </span> </li>  
+                <li> per year</li>
+
+                <p>Our SSL certificates ensure your website is encrypted & safe from any would-be cyber bullies. Affordable, secure & easy to install.</p>
+
+                <button> >>Find out more</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="SECTION3">
+        <div class="Why">
+            <h2>Why choose us?</h2>
+
+            <p>The top reasons to choose us for your hosting needs</p>
+        </div>
+
+        <div class="boxx">
+            <div class="boxx1">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/about/icon_support.png" alt="">
+
+                <h3>SUPPORT</h3>
+
+                <p>We’ve got an awesome, responsive team that’s here 24/7 to give you helpful website advice. And, you can contact them any way you’d like: phone, chat or, ticket! Whether you’ve got an issue with your site, or just a simple question, we’re here to help!</p>
+            </div>
+
+            <div class="boxx2">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/about/icon_uptime.png" alt="">
+
+                <h3>UPTIME</h3>
+                <p>Your website and applications are essential when it comes to the success of your business. At QServers we know that if your network or servers are down, you are losing revenue and opportunities. That’s why we provide a 99.9% server uptime for your site.</p>
+            </div>
+
+            <div class="boxx3">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/about/icon_scalable.png" alt="">
+                <h3>SCALABLE</h3>
+                <p>As your organization grows, technology should grow together to suit your needs. So choose the right plan to suit you and your company’s needs for today and be covered for tomorrow when the needs arises.
+                </p>
+            </div>
+
+            <div class="boxx4">
+                <img src="https://www.qservers.net/wp-content/themes/qservers/img/about/icon_backup.png" alt="">
+                <h3>DATA BACKUP</h3>
+                <p>We provide daily/weekly remote backups of all your data for continuous data protection. Our RAID level 1 storage ensures that your data are completely mirrored and protected against hardware failure.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="SECTION4">
+        <div class="What">
+            <h2>What do our customers think?</h2>
+            <p>Don’t just take our word for it. Find out what real customers are saying.</p>
+        </div>
+
+        <div class="segment">
+            
+            <div class="testimonials">
+
+                <div class="t1">
+                    <img src="https://qservers.ng/wp-content/uploads/2022/12/testimonial_google_icon_white.png" alt="">
+                    <p>I like their panel. “Absolutely amazing and seamless service. The customer service were helpful when i had an issue”</p>
+                    <p> @Ayomide Seun</p>
+                </div>
+
+            </div>
+
+            <div class="awards">
+                
+                <div class="a1">
+                    <h3>AWARD</h3>
+                    <img src="http://qservers.ng/wp-content/uploads/2023/07/new-award1.png" alt="">
+                    <p>Best Cloud Web Hosting Company of the Year - 2022 </p>
+                </div>
+
+            </div>
+         </div>
+    
+    </div>
+    <div class="SECTION7">
+        <div class="pic4">
+            <img src="https://www.qservers.net/wp-content/themes/qservers/img/clients/logo/client_7.png" alt="">
+        </div>
+
+        <div class="pic5">
+            <img src="https://www.qservers.net/wp-content/themes/qservers/img/clients/logo/client_8.png" alt="">
+        </div>
+
+        <div class="pic6">
+            <img src="https://www.qservers.net/wp-content/themes/qservers/img/clients/logo/client_6.png" alt="">
+        </div>
+
+        <div class="pic7">
+            <img src="https://www.qservers.net/wp-content/themes/qservers/img/clients/logo/client_1.png" alt="">
+        </div>
+
+        <div class="pic8">
+            <img src="https://www.qservers.net/wp-content/themes/qservers/img/clients/logo/client_2.png" alt="">
+        </div>
+
+        <div class="pic9">
+            <img src="https://www.qservers.net/wp-content/themes/qservers/img/clients/logo/client_3.png" alt="">
+        </div>
+    </div>
+
+    <div class="SECTION6">
+    
+        <div class="homee">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="white" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5z"/></svg>
+        </div>
+
+        <div class="home">
+                <p>HOME</p>
+        </div>
+        
+        <div class="pic1">
+            <img src="https://qservers.ng/wp-content/themes/qservers/img/payment-icons/mastercard.png" alt="">
+        </div>
+
+        <div class="pic2">
+            <img src="https://qservers.ng/wp-content/themes/qservers/img/payment-icons/visa.png" alt="">
+        </div>
+
+        <div class="pic3">
+            <img src="https://qservers.ng/wp-content/themes/qservers/img/payment-icons/interswitch_2.png" alt="">
+        </div>
+
+    </div>
+
+
+
+    <div class="SECTION5">
+        <div class="firstt">
+        <div class="first">
+            <h3>Hosting</h3>
+            <ul>
+                <li> >>Website Hosting </li>
+                <li> >>Cloud VPS Hosting </li>
+            </ul>
+        </div>
+
+        <div class="first2">
+            <h3>Services</h3>
+            <ul>
+                <li> >>Domain names </li>
+                <li> >>SSL certificates </li>
+            </ul>
+        </div>
+
+        <div class="first3">
+            <h3>Company</h3>
+            <ul>
+               <li> >>About Us </li>
+               <li> >>Blog </li> 
+                <li> >>F.A.Q's </li> 
+                <li> >>Our Partners</li> 
+                <li> >>Payment Options</li>
+            </ul>
+        </div>
+
+        <div class="first4">
+            <h3>Clients</h3>
+            <ul>
+                <li> >>Login </li>
+                <li> >>Register </li>
+                <li> >>Affiliates </li>
+                <li> >>Announcements </li>
+                <li> >>Knowledgebase </li>
+            </ul>
+        </div>
+
+        <div class="first5">
+            <h3>Manage</h3>
+            <ul>
+                <li> >>View Emails </li>
+                <li> >>View Tickets </li>
+                <li> >>View Invoices </li>
+                <li> >> Products & Services </li>
+                <li> >> Domain Management </li>
+            </ul>
+        </div>
+
+        <div class="first6">
+            <h3>Legal</h3>
+            <ul>
+                <li> >>Privacy Policy </li>
+                <li> >>Terms of Service </li>
+            </ul>
+        </div> 
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="foot">
+            <img src="https://qservers.ng/wp-content/themes/qservers/img/logo-footer.png" alt="">
+            <ul>
+            <li>QSERVERS NETWORK LIMITED - © 2022 - ALL RIGHTS RESERVED.</li>
+
+            <li>11 ADELEKE STR, OFF ALLEN AVENUE. IKEJA.</li>
+                
+            <li>  SALES : 08120800799. TECH : 08187881181, 09094786149. EMAIL : SUPPORT@QSERVERS.NET</li>
+            </ul>
+
+            <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#3B88C3" d="M36 32a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v28z"/><path fill="#FFF" d="M22 29v-9h7L18 7L7 20h7v9z"/></svg>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+</body>
+
+</html>

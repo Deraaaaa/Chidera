@@ -1,0 +1,578 @@
+*{
+   margin-left:5px; 
+}
+
+body{
+background-color: 
+}
+
+nav{
+    background-color: rgb(222,227,247);
+    display: flex;
+    margin-left:5px;
+    word-spacing: 80px;
+}
+
+nav ul li{
+    background-color: rgb(222,227,247);
+    margin-left:1300px;
+    color:darkblue;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.section{
+    background-color: rgb(222,227,247);
+    display: flex;
+    word-wrap: normal;
+    font-size: 10px;
+    
+}
+
+.first{
+    font-size:50px;
+    color: darkblue;
+    margin-left: 50px;
+}
+
+.first ul li{
+    list-style-type: none;
+    font-size: 100px;
+    margin-left: 10px;
+    font-family:'Times New Roman';
+    line-height: 120px;
+}
+
+.note ul li{
+    background-color: rgb(222,227,247);
+    list-style-type: none;
+    font-size:40px;
+    margin-left:-50px;
+    font-family:'Times New Roman';
+    line-height: 40px;
+}
+
+.image1{
+    display:flex;
+    margin-left:450px;
+
+}
+
+.btn button{
+    padding:20px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px;
+    border: solid 2px;
+
+}
+
+.btn button:hover{
+    cursor: pointer;
+    transition:100ms;
+    transition-duration: 2s;
+}
+
+.section2{
+    background-color: rgb(222,227,247);
+    list-style-type: none;
+    display: flex;
+}
+
+
+
+.part2 h3{
+    background-color: rgb(222,227,247);
+    color: palevioletred;
+    font-size: 40px;
+    text-decoration: underline black;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+
+.part2{
+    background-color: rgb(222,227,247);
+  font-size: 20px;  
+  line-height: 10px
+  list-style-type: none;
+  
+}
+
+
+/* .section2 img{
+    width:600px;
+    height: 400px;
+    margin-left: 650px;
+    margin-bottom: 500px;
+    position: relative;
+    top: -350px;
+} */
+
+.image2{
+    display:flex;
+    margin-left:400px;
+    margin-top: 40px;
+}
+
+
+.box1{
+    width:500px;
+    height: 25px;
+    background-color: rgb(85, 85, 240);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.box1 li{
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:0%;
+}
+
+.box2{
+    width:500px;
+    height: 25px;
+    background-color: rgb(85, 85, 240);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.box2 li{
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:,30%;
+}
+
+.box3{
+    width:500px;
+    height: 35px;
+    background-color: rgb(85, 85, 240);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.box3 li{
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:-15%;
+}
+
+.section3{
+    background-color: rgb(170,60,115);
+    margin-top: -50px;
+}
+
+.intro{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.objects{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+button{
+    padding:10px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px;
+    border: solid 2px;
+    margin-left: 70px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition:100ms;
+    transition-duration: 2s;
+}
+
+.object1{
+    width:400px;
+    height: 350px;
+    background-color:rgb(251,235,240);
+    border-radius:10px; 
+    margin-left:90px;
+}
+
+.object1>h3{
+ Display:flex;
+ text-align: center;
+ color: darkblue;
+ font-size: 30px;
+}
+
+.object1>p{
+ font-size: 27px;
+
+}
+
+.object1 img{
+    width:100px;
+    height:50px;
+    border-radius:20%;
+}
+
+.object2{
+    width:400px;
+    height: 350px;
+    background-color:rgb(251,235,240);
+    border-radius:10px; 
+    margin-left: 50px;
+}
+
+.object2>h3{
+    Display:flex;
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.object2>p{
+    font-size: 27px;
+}
+
+.object2 img{
+    width:100px;
+    height:50px;
+}
+
+.object3{
+    width:400px;
+    height: 350px;
+    background-color:rgb(251,235,240);
+    border-radius:10px; 
+    margin-left: 50px;
+}
+
+.object3>h3{
+    display: flex;
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.object3>p{
+    font-size: 27px;
+}
+
+.object3 img{
+    width:100px;
+    height:50px;
+}
+
+.object4{
+    width:400px;
+    height: 550px;
+    background-color:rgb(251,235,240);
+    border-radius:10px;
+    text-align: left; 
+    margin-left: 90px;
+}
+
+.object4>h3{
+    display: flex;
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.object4>p{
+    font-size: 27px;
+}
+
+.object4 img{
+    width:400px;
+    height:230px;
+    margin-left:0px;
+}
+
+.object5{
+    width:400px;
+    height: 550px;
+    background-color:rgb(251,235,240);
+    border-radius:10px;
+    text-align: left; 
+    margin-left: 50px;
+}
+
+.object5>h3{
+    display: flex;
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.object5>p{
+    font-size: 27px;
+}
+
+.object5 img{
+    width:400px;
+    height:230px;
+    margin-left:0px;
+}
+
+.object6{
+    width:400px;
+    height: 550px;
+    background-color:rgb(251,235,240);
+    border-radius:10px;
+    text-align: left; 
+    margin-left: 50px;
+}
+
+.object6>h3{
+    display: flex;
+    text-align:center;
+    color: darkblue;
+    font-size: 30px;
+    margin-left: 125px;
+}
+
+.object6>p{
+    font-size: 30px;
+}
+
+.object6 img{
+    width:400px;
+    height:230px;
+    margin-left:0px;
+}
+
+.section4{
+    display: flex;
+}
+
+.shortnote li{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(85,119,179);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.section4 img{
+    display: flex;
+    margin-left:100px;
+    width: 600px;
+    height:300px;
+}
+
+.section5{
+    background-color: rgb(226,226,226);
+    display: flex;
+}
+
+.section5>img{
+    width:600px;
+    height:400px;
+    margin-left: 100px;
+    border: solid darkblue 10px ;
+}
+
+.list{
+    margin-left:300px;
+    font-size: 40px;
+}
+
+.list ul li{
+    list-style-type:none;
+    
+}
+
+.items:hover{
+    cursor: pointer;
+    transition:100ms;
+    transition-duration: 2s;
+    background-color: darkblue;
+}
+
+
+.CC{
+    color: darkblue;
+    display: flex;
+    width:650px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    animation-name: Content;
+    animation-duration: 5s;
+}
+
+@keyframes Content {
+    0%{margin-left: -2000%;}
+    20%{margin-left: 0%;}
+    50%{margin-left: 0%;}
+    100%{margin-left: 0%;}
+}
+
+.CC>img{
+    width:70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.CS{
+    color: darkblue;
+    display: flex;
+    width:650px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    animation-name: CSS;
+    animation-duration: 15s;
+}
+
+@keyframes CSS{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 0%;}
+    50%{margin-left: 0%;}
+    100%{margin-left: 0%;}
+}
+
+.CS>img{
+    width:70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.BG{
+    color: darkblue;
+    display: flex;
+    width:650px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    animation-name: BGG;
+    animation-duration: 20s;
+}
+
+@keyframes BGG{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 0%;}
+    50%{margin-left: 0%;}
+    100%{margin-left: 0%;}
+}
+
+.BG>img{
+    width:70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.EM{
+    color: darkblue;
+    display: flex;
+    width:650px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    animation-name: EMM;
+    animation-duration: 25s;
+}
+
+@keyframes EMM{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 0%;}
+    50%{margin-left: 0%;}
+    100%{margin-left: 0%;}
+}
+
+.EM>img{
+    width:70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.BP{
+ color: darkblue;
+    display: flex;
+    width:650px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    animation-name: BPP;
+    animation-duration: 30s;
+}
+
+@keyframes BPP{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 0%;}
+    50%{margin-left: 0%;}
+    100%{margin-left: 0%;}
+}
+
+.BP>img{
+    width:70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+footer{
+    background-color: rgb(52,91,155);
+    font-size: 20px;
+    display: flex;
+}
+
+.end{
+    margin-left: 1000px;
+}
+
+.box{
+    animation-name:boxxx;
+    animation-duration: 3s;
+}
+
+@keyframes boxxx{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 5%;}
+    50%{margin-left: 5%;}
+    100%{margin-left: 5%;}
+}
+
+/* @media screen and(max-width: 415px;)  This is used to prevent a website from showing on a phone */
+
+@media screen {
+    
+}

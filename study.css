@@ -18,6 +18,10 @@ nav{
     display: flex;
 }
 
+.mobilenav{
+    display:none;
+}
+
 .logo img{
     width: 20%;
     border-radius: 30%;
@@ -126,7 +130,7 @@ nav{
     margin-top: 20px;
     grid-gap:20px;
     animation-name:gallery;
-    animation-duration: 20s;
+    animation-duration: 5s;
 }
 
 .gallery>div{
@@ -137,6 +141,41 @@ nav{
     height: 100%;
     width: 150%;
 }
+
+.bg{
+    background-image: url("https://media.istockphoto.com/id/1255928059/photo/young-caucasian-female-programmer-in-glasses-writes-program-code-on-a-laptop.webp?b=1&s=170667a&w=0&k=20&c=Iuu33Tqj2V3cZj4emGMUAvHk3ArF35tWIkxrvV9j0l4=");
+    width: 70%;
+    margin-left: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation-name: bkg;
+    animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+}
+@keyframes bkg {
+    0%{background-image: url("https://media.istockphoto.com/id/1255928059/photo/young-caucasian-female-programmer-in-glasses-writes-program-code-on-a-laptop.webp?b=1&s=170667a&w=0&k=20&c=Iuu33Tqj2V3cZj4emGMUAvHk3ArF35tWIkxrvV9j0l4=");}
+
+    50%{background-image: url("https://media.istockphoto.com/id/1350900187/photo/it-teacher-writing-on-the-whiteboard-in-the-classroom.webp?b=1&s=170667a&w=0&k=20&c=IW0kINJNQ3pGEBUhO91adseJQTmQO_LGyk9nMV8zsro=");}
+
+    100%{background-image: url("https://media.istockphoto.com/id/1363276581/photo/smart-young-students-studying-in-university-with-diverse-multiethnic-classmates-scholars.webp?b=1&s=170667a&w=0&k=20&c=xEX-zFw0En_eTQ9EgQCBBdFr-vt-VfNr8wLz45RXf2w=");
+
+    }
+}
+
+@keyframes gallery {
+    0%{ margin-left: -2000px;}
+    20%{ margin-left: 5%;}
+   
+    60%{ margin-left: 10%;}
+ 
+    100%{ margin-left: 15%;}
+     
+}
+
 
 .section .icon{
     margin-left:45%;
@@ -178,4 +217,47 @@ nav{
 
 .learn .article{
     order: 1;
+}
+
+/* The settings below is for a tablet, any tablet below 820px won't allow the nav show */
+@media screen and (max-width: 780px) {
+    nav{
+        background-color: var(--s-col);
+        display: none;
+    }
+    .mobileNav{
+        display: flex;
+        background-color:black;
+       padding-bottom: 40px;
+    }
+    .mobileNav .menu{
+
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+   .mobileNav .menu ul{
+        background-color: black;
+        display: none;
+        width: 95%;
+        margin-left:37px ;
+        border: var(--p-col) 1px solid;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        border-radius: 10px;
+        box-shadow: gray 1px 2px 3px;
+
+    }
+
+    
+    .mobileNav .menu:hover.menu ul{
+        display: block;
+    }
+    .mobileNav figure img{
+        width: 30%;
+    }
+    .menu svg{
+        margin-left: 90px;
+    }
+
 }

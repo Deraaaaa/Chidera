@@ -1,0 +1,307 @@
+
+               !-- <div class="t2">
+                    <img src="https://qservers.ng/wp-content/uploads/2022/12/testimonial_google_icon_white.png" alt="">
+                    <p>I love their panel</p>
+                    <p> @Keyinde Emmanuel</p>
+                </div> --> <
+
+
+            </div>
+            <!-- 
+                            <div class="a2">
+                                <img src="http://qservers.ng/wp-content/uploads/2023/07/icon-new.png" alt="">
+                                <p>Best Affordable Host of 2022</p>
+                            </div>
+            
+                            <div class="a3">
+                                <img src="http://qservers.ng/wp-content/uploads/2023/07/new-award3.png" alt="">
+                                <p>Most Outstanding Web Host 2021</p>
+                            </div>
+            
+                            <div class="a4">
+                                <img src="http://qservers.ng/wp-content/uploads/2023/07/new-award2.png" alt="">
+                                <p>Most Dedicated Web Host 2021</p>
+                            </div> -->          
+
+
+
+
+                            
+.awards .a2{
+    border: solid white 3px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.awards .a2>img{
+    width:150px;
+    height:100px;
+}
+
+.awards .a3{
+    border: solid white 3px;
+    margin-left: 100px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.awards .a4{
+    border: solid white 3px;
+    margin-left: 100px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+/* 
+.section1{
+     display:flex; 
+     float:;
+     width:100%;
+     /* transform: translate(-50%, -50% ); */
+     /* left:50%; */
+     /* overflow-x: scroll; */
+     /* border: 20px solid white; */
+     /* box-shadow: 10px 25px 30px rgba(red, green, blue, alpha); */
+     /* animation-name: section1; */
+     /* animation: slide 10s infinite; */
+}
+
+/* .section1::-webkit-scrollbar{ */
+    /* width:0px; */
+/* } */
+
+/* @keyframes section1 {
+    0%{ sectiona }
+    25%{ sectionb}
+    50%{sectionc}
+    100%{sectiond}
+} */ 
+
+/* @keyframes slide {
+     0%{ margin-left: 1000px;}
+    20%{ margin-left: 5%;}
+   
+    60%{ margin-left: 10%;}
+ 
+    100%{ margin-left: 15%;} 
+}
+     0%{
+        transform:translateX(0%);
+    }
+
+    25%{
+        transform: translateX(0%);
+    }
+
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%)
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+} */
+/* 
+.sectiona{
+    background-color:rgb(198,0,59);
+    padding-left: 250px; 
+    padding-right: 200px;
+    width:100%;
+    
+}
+
+.sectiona img{
+    width:200px;
+    height:250px;
+    margin-left: 300px;
+    margin-top:100px;
+} 
+
+.sectiona .notea{
+    /* margin-left: 500px; */
+    /* padding-left: 500px;
+    margin-top:-180px;
+    padding-right: 100px;
+}
+
+.sectiona .notea>h2{
+    font-size: 30px;
+    padding-left:230px;
+    padding-top:0px;
+}
+
+.sectiona .notea>h3{
+    font-size: 20px;
+    padding-left:190px;
+    padding-top:0px;
+}
+
+.sectiona .notea>p{
+    Font-size:30px;
+}
+
+.sectiona .notea>button{
+    padding:10px;
+    background-color:rgb(198,0,59);
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px;
+    border: solid 2px;
+    margin-left: 250px;
+}
+
+.sectionb{
+    background-color: rgb(198,0,59);
+    display: flex;
+    padding-right: 400px;
+    width: 100%;
+}
+
+.sectionb img{
+    width:200px;
+    height:250px;
+    margin-left: 300px;
+    margin-top:100px;
+} 
+
+.sectionb .noteb{
+    margin-left:20px;
+    margin-top:100px;
+    padding-bottom: 100px;
+}
+
+
+.sectionb .noteb>h2{
+    font-size: 60px;
+    padding-left:290px;
+    padding-top:0px;
+}
+
+.sectionb .noteb>p{
+    font-size: 30px;
+    padding-left:190px;
+    padding-top:0px;
+}
+
+.sectionb .noteb>button{
+    padding:10px;
+    background-color:rgb(198,0,59);
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px;
+    border: solid 2px;
+    margin-left: 250px;
+}  */
+
+/* 
+.sectiond{
+    background-color: rgb(198,0,59);
+    display: flex;
+    width:100%;
+}
+
+.sectiond img{
+    width:200px;
+    height:250px;
+    margin-left: 300px;
+    margin-top:100px;
+} 
+
+.sectiond .noted>h2{
+    font-size: 60px;
+    padding-left:190px;
+    padding-top:0px;
+}
+
+.sectiond .noted>h3{
+    font-size: 20px;
+    padding-left:190px;
+    padding-top:0px;
+}
+
+.sectiond .noted>p{
+    font-size: 30px;
+    padding-left:190px;
+    padding-top:0px;
+    padding-right: 400px;
+}
+
+.sectiond .noted>button{
+    padding:10px;
+    background-color :rgb(198,0,59);
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px;
+    border: solid 2px;
+    margin-left: 250px;
+} */
+
+
+
+<div class="sectiona">
+           
+    <div class="imagea">
+      <img src="https://www.qservers.net/wp-content/themes/qservers/img/slides/slide-img5_1.png" alt="">
+    </div>
+
+       <div class="notea">
+      <h2>Web Hosting</h2>
+
+      <h3>Free Sl Certificates on all accounts</h3>
+
+      <p>By Let’s Encrypt. You can install Let’s Encrypt certificates for free through the cPanel of your hosting account under the security tab.
+      </p>
+
+      <button>KNOW MORE</button>
+       </div>
+
+   </div>    
+
+   <div class="sectionb">
+     <img src="https://www.qservers.net/wp-content/themes/qservers/img/slides/slide-img5.png" alt="">
+
+      <div class="noteb">
+     <h2>Free.com.ng</h2>
+
+      <p>FREE reg. & renewals with every annual hosting package ordered!
+
+        .com.ng | .net.ng | .org.ng | .i.ng | .mobi.ng | .sch.ng.</p>
+
+      
+        <button>VIEW .NG PRICES</button>
+        <br>
+        <br>  <br>    <br>
+        <button>ORDER NOW</button>
+      
+      </div>
+
+    </div> -->
