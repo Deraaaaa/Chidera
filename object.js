@@ -67,6 +67,7 @@ console.log(humans.women)
 let shoppingcart =  {
     product: 'Fire bicuit',
     price: 30,
+    quantity: 3,
     quantity: 3
 }
 
